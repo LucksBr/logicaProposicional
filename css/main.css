@@ -155,7 +155,7 @@ body {
 @keyframes delay-button {
     from {
         opacity: 0;
-        transform: translateY(40px);
+        transform: translateY(39px);
     }
 
     to {
