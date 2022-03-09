@@ -7,7 +7,9 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
+    
 }
 
 /* --CONFIGURAÇÕES GLOBAIS--  */
@@ -38,6 +40,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
 
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
 
 }
 
@@ -50,7 +53,7 @@ body {
 
 #header_title {
     color: #ffffff;
-    font-family: 'Slabo 27px', serif;;
+    font-family: var(--title1);
     font-size: 4rem;
     text-align: center;
     letter-spacing: 3px;
@@ -67,7 +70,7 @@ body {
     max-width: 800px;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.705);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-normal);
     margin: 10px;
 
     animation: delay-text 1.5s ease;
@@ -84,6 +87,14 @@ body {
 
 /* -FOOTER-  */
 
+a {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: 20;
+}
+
+
 #footer-button {
    
     width: 100%;
@@ -91,7 +102,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 4rem;
+    margin-bottom: 5rem;
    
     animation: delay-button 1s ease forwards;
 }
@@ -107,6 +118,10 @@ body {
     margin: 10rem;
     
     animation: delay-button 1s ease forwards;
+}
+
+#circle:hover {
+    background-color: rgba(0, 0, 0, 0.432);
 }
 
 .barra-one {

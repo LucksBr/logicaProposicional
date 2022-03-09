@@ -1,0 +1,33 @@
+:root {
+
+    /* Cores padrao */
+
+    --cor1-normal: #ebebebff;
+    --cor2-normal: #192b39ff;
+    --cor3-normal: #f26969ff;
+    --cor4-normal: #3174afff;
+    --cor5-normal: #548c65ff;
+
+    /* Cores escuras */
+
+    --color1-dark: #b0b0b0ff;
+    --color2-dark: #13202bff;
+    --color3-dark: #eb1919ff;
+    --color4-dark: #255783ff;
+    --color5-dark: #3f694cff;
+
+    /* Cores claras */
+
+    --color1-light: #f0f0f0ff;
+    --color2-light: #3a6383ff;
+    --color3-light: #f58e8eff;
+    --color4-light: #5898d0ff;
+    --color5-light: #79af89ff;
+
+    /* Fontes */
+
+    --title1: 'Slabo 27px', serif;
+    --font-normal: Arial, Helvetica, sans-serif;
+
+
+}

@@ -1,0 +1,14 @@
+#conteudo-logica {
+    width: 100%;
+    height: 100vh;
+    background-color: #ebebeb;
+    color: rgb(19, 17, 17);
+}
+
+img {
+    width: 192px;
+    height: 136.5px;
+    
+    height: auto;
+    border-radius: 100%;
+}
