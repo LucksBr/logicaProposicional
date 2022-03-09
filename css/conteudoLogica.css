@@ -26,7 +26,7 @@
     color: var(--cor4-normal);
 }
 
-#section {
+.section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,16 +43,18 @@
     
 }
 
-#img1 {
+.img {
     margin: 15px;
     max-width: 140px;
     max-height: 140px;
-
+    justify-content: center;
 }
 
 
 main {
     margin-top: 20px ;
+    display: flex;
+    flex-direction: column;
 }
 
 main h1 {
@@ -65,26 +67,50 @@ main h2 {
     font-size: 2.1rem;
     color: var(--cor4-normal);
     text-indent: 35px;
+    margin-top: 30px;
+}
+
+main ul {
+    margin: 20px;
 }
 
 main li {
     font-size: 2rem;
-    margin: 10px 20px;
+    margin: 10px 35px;
+    line-height: 20px;
+}
+
+.spacing {
+    margin: 10px 6px;
+    width: 30px;
+    transform: translateY(15px);
+}
+
+
+.collumn {
+    columns: 2;
+}
+
+#exemplos {
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 720px) {
     
-    #section {
+    .section {
         flex-direction: column;
     }
 
-    #img1 {
+    .img {
         margin: 20px;
         max-width: 150px;
         max-height: 200px;
-       
+         
+    }
 
-        
+    .collumn {
+        columns: 1;
     }
 
 }
