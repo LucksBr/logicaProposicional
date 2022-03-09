@@ -10,19 +10,19 @@
 
     /* Cores escuras */
 
-    --color1-dark: #b0b0b0ff;
-    --color2-dark: #13202bff;
-    --color3-dark: #eb1919ff;
-    --color4-dark: #255783ff;
-    --color5-dark: #3f694cff;
+    --cor1-dark: #b0b0b0ff;
+    --cor2-dark: #13202bff;
+    --cor3-dark: #eb1919ff;
+    --cor4-dark: #255783ff;
+    --cor5-dark: #3f694cff;
 
     /* Cores claras */
 
-    --color1-light: #f0f0f0ff;
-    --color2-light: #3a6383ff;
-    --color3-light: #f58e8eff;
-    --color4-light: #5898d0ff;
-    --color5-light: #79af89ff;
+    --cor1-light: #f0f0f0ff;
+    --cor2-light: #3a6383ff;
+    --cor3-light: #f58e8eff;
+    --cor4-light: #5898d0ff;
+    --cor5-light: #79af89ff;
 
     /* Fontes */
 
