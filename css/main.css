@@ -1,3 +1,5 @@
+/* -CONFIGURAÇÕES GLOBAIS-  */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,12 +10,16 @@ html {
     font-size: 62.5%;
 }
 
+/* --CONFIGURAÇÕES GLOBAIS--  */
+
+
+
+/* -CONFIGURAÇÕES DO CORPO-  */
 
 body {
     display: flex;
     flex-direction: column;
 }
-
 
 #metade {
     width: 100%;
@@ -34,6 +40,13 @@ body {
 
 
 }
+
+
+/* --CONFIGURAÇÕES DO CORPO--  */
+
+
+
+/* -HEADER-  */
 
 #header_title {
     color: #ffffff;
@@ -64,6 +77,12 @@ body {
     width: 100%;
     height: 80%;
 }
+
+/* --HEADER--  */
+
+
+
+/* -FOOTER-  */
 
 #footer-button {
    
@@ -114,6 +133,12 @@ body {
     
 }
 
+/* --FOOTER--  */
+
+
+
+/* -MEDIA QUERIES-  */
+
 @media (max-width: 420px) {
     
 
@@ -127,6 +152,12 @@ body {
         font-size: 43%;
     }
 }
+
+/* --MEDIA QUERIES--  */
+
+
+
+/* -ANIMACOES-  */
 
 @keyframes delay-title {
     from {
@@ -152,8 +183,6 @@ body {
     }
 }
 
-
-
 @keyframes delay-button {
     from {
         opacity: 0;
@@ -166,3 +195,4 @@ body {
     }
 }
 
+/* --ANIMACOES--  */
