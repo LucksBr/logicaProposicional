@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font: 62.5%;
+}
+
+
+:root {
+    /* CSS HEX */
+--cultured: #f8f9fbff;
+--alice-blue: #e1ecf7ff;
+--baby-blue-eyes: #aecbebff;
+--french-sky-blue: #83b0e1ff;
+--little-boy-blue: #71a5deff;
+
+
+--gradient-top: linear-gradient(0deg,#aecbebff, #83b0e1ff, #71a5deff);
+}
+
+body {
+    background-image: var(--gradient-top);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content_calculadora {
+    background-color: var(--cor4-dark);
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+#title {
+    margin: 1rem;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: .1rem .1rem .1rem rgba(0, 0, 0, 0.637);
+}
+
+#content_input {
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#content_input > div {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 12rem;
+    height: 4rem;
+}
+
+#content_input > div > h2 {
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow: .1rem .1rem .1rem rgba(0, 0, 0, 0.356);
+}
+
+#content_input > div > select {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(43, 32, 42);
+    color: #fff;
+    border: .1rem solid transparent;
+    border-radius: .4rem;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    outline: 0;
+   
+}
+
+
+#button_calc > button {
+    margin-top: 2rem;
+   background-color: rgb(43, 32, 42);
+   color: #fff;
+   border: 0;
+   width: 7rem;
+   height: 2rem;
+   border-radius: .7rem;
+   outline: 0;
+   
+}
+
+#button_calc > button:hover {
+   background-color: rgb(54, 40, 53);
+}
+
+#resultado_operacao > p {
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #9ba0ec;
+    width: 8rem;
+    height: 6rem;
+    margin-top: 1rem;
+    border-radius: 1000rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation:  1s ease forwards;
+}
+
+
+@keyframes transicaoResposta {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+
+}

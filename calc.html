@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lógica Proposicional</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/variaveis.css">
+</head>
+<body>
+    
+    <div id="content_calculadora">
+        <div id="title">
+            <h1> Calculadora Verdade </h1>
+        </div>
+
+        <div id="content_input">
+
+            <div id="valor_A">
+                <h2>Valor de A</h2>
+
+                <select name="valorBooleanoA" id="valorBooleanoA">
+                    <option value="verdadeiro">Verdadeiro</option>
+                    <option value="falso">Falso</option>
+                </select>
+            </div>
+
+            <div id="valor_B">
+                <h2>Valor de B</h2>
+
+                <select name="valorBooleanoB" id="valorBooleanoB">
+                    <option value="verdadeiro">Verdadeiro</option>
+                    <option value="falso">Falso</option>
+                </select>
+            </div>
+
+            <div id="valor_operacao">
+                <h2>Valor de Operação</h2>
+
+                <select name="valorOperacao" id="valorOperacao">
+                    <option value="conjuncao">Conjunção</option>
+                    <option value="disjuncao">Disjunção</option>
+                    <option value="disjuncaoExclusiva">Disjunção Esclusiva</option>
+                    <option value="condicional">Condicional</option>
+                    <option value="bicondicional">Bicondicional</option>
+                    <option value="negacao">Negação A</option>
+                </select>
+            </div>
+
+            <div id="button_calc">
+                <button id="button">Calcular</button>
+            </div>
+
+            <div id="resultado_operacao">
+                <p id="text_operacao"> </p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="js/calcVerdade.js"></script>
+</body>
+</html>
