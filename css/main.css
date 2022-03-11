@@ -87,7 +87,7 @@ body {
 
 /* -FOOTER-  */
 
-header a {
+ #linkButton {
     width: 60px;
     height: 60px;
     position: absolute;
