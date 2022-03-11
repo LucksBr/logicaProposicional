@@ -124,12 +124,12 @@ function alterarTextoResultado(valorBooleano) {
     if (valorBooleano) {
         animarTransicao()
         texto = "Verdadeiro"
-        textResultado.style.backgroundColor = "#4faa57"
+        textResultado.style.backgroundColor = "#79af89ff"
         
     } else if (!valorBooleano) {
         animarTransicao()
         texto = "Falso"
-        textResultado.style.backgroundColor = "#c43c3c"
+        textResultado.style.backgroundColor = "#f26969ff"
         
     }
 

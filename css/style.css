@@ -19,7 +19,7 @@
 }
 
 body {
-    background-image: var(--gradient-top);
+    background-color: var(--cor1-normal);
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
@@ -129,4 +129,24 @@ body {
     }
 
 
+}
+
+@media (max-width: 835px) {
+    #content_input {
+        display: flex;
+        margin: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+    #content_calculadora {
+        background-color: var(--cor4-dark);
+        width: 70%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
 }
