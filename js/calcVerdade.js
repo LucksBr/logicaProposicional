@@ -54,7 +54,10 @@ function calcularOperacao (valorA, valorB, operacao) {
         case "bicondicional" : return calcularBicondicional(valorA, valorB);
         break;
 
-        case "negacao" : return calcularNegacao(valorA, valorB);
+        case "negacaoA" : return calcularNegacaoA(valorA, valorB);
+        break;
+
+        case "negacaoB" : return calcularNegacaoB( valorB);
         break;
     }
 
@@ -106,9 +109,19 @@ function calcularBicondicional(valorA, valorB) {
 
 }
 
-function calcularNegacao(valorA, valorB) {
+function calcularNegacaoA(valorA) {
 
     if (valorA == "falso") {
+        return true;
+    } else {
+        return false;
+    }
+
+}
+
+function calcularNegacaoB(valorB) {
+
+    if (valorB == "falso") {
         return true;
     } else {
         return false;
