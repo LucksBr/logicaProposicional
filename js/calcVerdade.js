@@ -137,7 +137,7 @@ function alterarTextoResultado(valorBooleano) {
 }
 
 function animarTransicao () {
-    textResultado.style.animationName = "transicaoResposta";
+    textResultado.style.animationName = "transicaoSuave";
     setTimeout(function(){
         textResultado.style.animationName = ""
     },1000)
